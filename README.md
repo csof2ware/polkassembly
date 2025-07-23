@@ -1,30 +1,46 @@
-# polkassembly
+# Polkassembly - https://polkassembly.io <img width="750" alt="web3 foundation_grants_badge_black" src="https://user-images.githubusercontent.com/874046/119712025-cb8ae900-be7d-11eb-9ca7-cac14991bb5e.png">
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+The place to discuss and vote on Kusama and Polkadot governance.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/leonardopoeiras-gmailcoms-projects/v0-polkassembly)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/JNhUyF5iAFi)
+Polkassembly is a platform for anyone to discover and participate in Polkadot and Kusama governance. You can browse proposals made on chain, discuss with the community and vote directly from the website using a browser extension. Proposal authors are the only one able to edit the proposal post and description. You don't have to, but adding an email may help to recover your account, also you can get notifications for discussions of interest or when a new proposal appears on-chain.
 
-## Overview
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+---
 
-## Deployment
+This repo hosts 
+- next.js app: the next js fullstack app.
 
-Your project is live at:
 
-**[https://vercel.com/leonardopoeiras-gmailcoms-projects/v0-polkassembly](https://vercel.com/leonardopoeiras-gmailcoms-projects/v0-polkassembly)**
 
-## Build your app
+## Getting Started
 
-Continue building your app on:
+First, run the development server:
 
-**[https://v0.dev/chat/projects/JNhUyF5iAFi](https://v0.dev/chat/projects/JNhUyF5iAFi)**
+```bash
+npm run dev
+# or
+yarn dev
+```
 
-## How It Works
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+
+The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
